@@ -21,10 +21,14 @@ These are the key commands that you run in the terminal in order to run your ter
 
 You can see a full terraform cheat sheet [here](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
 
-You can also find help on terraform commands by using one of the 3 following commands
+You can also find help on terraform commands by using one of the 3 following commands:
 
 ```bash
 > terraform
 > terraform -h
 > terraform --help
 ```
+
+## Terraform - Infrastructure as Code
+
+Hashicorp provides a [registry](https://registry.terraform.io/namespaces/hashicorp) where you can search documentation for different resources you want to create for all different providers, such as AWS, and Azure.
