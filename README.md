@@ -9,6 +9,6 @@ Here's a list of some of the languages/technologies I have used so far:
 - Linux
 - AWS
 - Microsoft Azure
-- Terraform
+- [Terraform](https://github.com/TSimmo123/simmo-repo-1/blob/main/terraform.md)
 - Go
 - Rego
