@@ -10,7 +10,7 @@ It is designed for cooridnating work betwween programmers, but it can be used to
 
 GitHub is a provider of Internet hosting for software development and version control using Git. It provides access control and several collaboration features such as bug tracking, featture requests, task management, continuous integration and wikis for every project.
 
-## The Basic git Commands
+## The Basic Git Commands
 
 | Command        | Description                                        |
 |----------------|----------------------------------------------------|
