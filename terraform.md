@@ -6,7 +6,9 @@ Terraform is an open-source `Infrastructure as Code` software tool that enables 
 
 It can be used to provision resources on the main hyperscalars such as `AWS` and `Microsoft Azure`.
 
-## Key Terraform Commands
+## Key Commands for Running Terraform
+
+These are the key commands that you run in the terminal in order to run your terraform code.
 
 | Command        | Description                                        |
 |----------------|----------------------------------------------------|
@@ -16,3 +18,13 @@ It can be used to provision resources on the main hyperscalars such as `AWS` and
 |`terraform plan`| Creates a plan for your environment|
 |`terraform apply`| Creates the environment with your chosen provider|
 |`terraform destroy`| Deletes your environment|
+
+You can see a full terraform cheat sheet [here](https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet)
+
+You can also find help on terraform commands by using one of the 3 following commands
+
+```bash
+> terraform
+> terraform -h
+> terraform --help
+```
