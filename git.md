@@ -23,3 +23,29 @@ GitHub is a provider of Internet hosting for software development and version co
 | `git checkout` | Switch branches or restore working tree files      |
 | `git pull`     | Fetch changes from a remote repository             |
 | `git push`     | Push recorded changes to a remote repository       |
+
+## Git Commands In Use
+
+Create a new branch with -b
+
+```bash
+> git checkout -b <branchName>
+```
+
+Delete the branch with -d
+
+```bash
+> git branch -d <branchName>
+```
+
+We use the . to add all files to the repo.
+
+```bash
+> git add .
+```
+
+We use -m to add a commit message.
+
+```bash
+> git commit -m "Commit Message"
+```
