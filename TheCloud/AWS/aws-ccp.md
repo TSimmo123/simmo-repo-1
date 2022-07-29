@@ -2,7 +2,7 @@
 
 Here you will find a lot of key information that will help you when studying for the Amazon Certified Cloud Practitioner Exam.
 
-You can also visit here to view the AWS Service Directory.
+You can also visit [here](https://github.com/TSimmo123/simmo-repo-1/blob/main/TheCloud/AWS/aws-service-dictionary.md) to view the AWS Service Directory.
 
 Firstly, it is important to note that the fundamentals of cloud architecture will be on the exam, so I would suggest reading the information on the previous page so that you are fully up to grips with `The Cloud`.
 
@@ -109,5 +109,63 @@ that contains your sample application.
 8. Wait for the application and then navigate to the URL near the top of the page.
 9. After viewing the application, navigate back to the console and select Actions -
 Terminate Environment.
+
+## Why use the AWS Global Accelerator
+
+The AWS Global Accelerator is a newtoking service that can route your traffic through the AWS global network infrastructure to improve performance.
+
+It utilises IP addresses that route to edge locations. Once the request reaces edge locations, traffic is routed through AWS network. It can route requests to many AWS resources including load balancers and EC2 instances.
+
+Using it has the following performance improvements:
+- Distance between user and initial endpoint is minimised by using edge locations
+- Traffic is optimised by using AWS network instead of public internet
+- Results in improvement of first byte latency, jitter, and throughput
+- Provides superior fualt tolerance by not relying on DNS resolution
+
+## Hosting a Website on Amazon S3
+
+1. Log into the AWS Console, and select the S3 service.
+2. Click the Create Bucket button.
+3. In the dialog, give the bucket a unique name and click Next.
+4. In the next view, you can simply click Next.
+5. Deselect the option to Block all Public Access. Once the warning appears you will need
+to click the checkbox in the acknowledgement. Click Next.
+6. In the Review view, you can click the Create Bucket button.
+7. Next, click on the newly created bucket in the list.
+8. Next, click the Upload button. From the dialog, click the Add Files button.
+9. Select the files from the exercise files. Click Next.
+10. From the Permissions view, you can click Next.
+11. In the properties view, leave the default storage class. Scroll down and set encryption to
+the Amazon S3 Master Key. Click Next.
+12. From the Review view, click Upload.
+13. Select the ps-logo.jpg file from the list. Attempt to navigate to the Object URL for this
+image.
+14. Navigate back to the console and click on the image in the list. Click the permissions
+option to edit the permissions.
+15. Scroll down to the section titled Public Access and select the Everyone group.
+16. Be sure that Read object option is selected in the dialog. Click Save.
+17. Reload the image URL, and it should load without issue.
+18. Back in the console, navigate to the bucket and then select the Properties tab.
+19. From the properties tab, select Static Website Hosting.
+20. Next, select the option to Use this bucket to host a website. Enter index.html for the
+index document, Click Save.
+21. Navigate to the URL for the static website hosting option. You will see that it is
+forbidden.
+22. Next, navigate back to the console and select the index.html file. Update the
+permissions just as you did for the image.
+23. Next, navigate back to the static website hosting URL. The site should now work.
+
+## Glacier and Glacier Deep Archive
+
+Both S3Glacier and Glacier Deep Archive are designed for archival of data within S3 as a separate storage class.
+
+|`S3 Glacier`|`S3 Glacier Deep Archive`|
+|--|--|
+|Designed for archival data|Designed for archival data|
+|90 day minimum storage duration change|180 day minimum storage duration change|
+|Can be retrieved in either minutes or hours|Can be retrieved in hours|
+|You pay a fee for GB retrieved in addition to the storage costs|You pay a retrieval fee per GB retrieved|
+|Over 5 times less expensive han S3 Standard Storage Class|Over 23 times less expensive than S3 standard storage class|
+
 
 

@@ -4,6 +4,9 @@ Cloud computing is the delivery of computing services over the internet. Computi
 
 Because cloud computing uses the internet to deliver these services, it doesn't have to be constrained by physcial infrastructure the same way that a traditional datacenter is. That means if you need to increase your IT infrastructure rapidly, you don't have to wait to build a new datacentre - you can use the cloud to rapdily expand your IT footprint.
 
+You can see more notes on either of the two main hyperscalars:
+- [AWS](https://github.com/TSimmo123/simmo-repo-1/blob/main/TheCloud/AWS/aws-ccp.md)
+
 ## The Benefits of Cloud Computing
 - Trade capital expense for variable expense
 - Benefit from massive economies of scale
