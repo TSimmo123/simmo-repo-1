@@ -10,7 +10,7 @@ Here's a list of some of the languages/technologies I have used so far:
 - [Git](https://github.com/TSimmo123/simmo-repo-1/blob/main/git.md)
 - Powershell
 - [Linux](https://github.com/TSimmo123/simmo-repo-1/blob/main/linux.md)
-- The Cloud
+- [The Cloud](https://github.com/TSimmo123/simmo-repo-1/blob/main/TheCloud/the-cloud-main.md)
 - [Terraform](https://github.com/TSimmo123/simmo-repo-1/blob/main/terraform.md)
 - Go
 - Regula/Rego
